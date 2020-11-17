@@ -1,0 +1,14 @@
+k8s:
+  token:
+#    token使用容器内的serviceaccount的token /run/secrets/kubernetes.io/serviceaccount/token，本地debug需要使用本地地址
+    path: /run/secrets/kubernetes.io/serviceaccount/token
+  node-pool:
+    resource: Deployment,StatefulSet,DaemonSet,Pod
+
+server:
+  port: 443
+  ssl:
+    enabled: true
+    key-store: classpath:ssl/server.keystore
+    key-store-type: JKS
+    key-store-password: 123456

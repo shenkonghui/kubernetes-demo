@@ -1,0 +1,82 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=CN, ST=Zhejiang, L=HangZhou, O=harmonycloud, OU=skyview, CN=*.caas-system.svc
+        Validity
+            Not Before: Jun  5 15:15:18 2020 GMT
+            Not After : Jun  3 15:15:18 2030 GMT
+        Subject: C=CN, ST=Zhejiang, O=harmonycloud, OU=skyview, CN=*.caas-system.svc
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:b4:82:06:81:b8:04:bb:ef:98:30:72:ff:ba:75:
+                    50:33:74:a8:5f:24:18:7b:2c:ac:0c:bc:47:3b:84:
+                    91:01:ec:6e:66:2d:71:bf:62:24:59:59:db:e9:85:
+                    3b:82:9d:82:80:f3:6e:e3:f3:cb:c9:54:33:2c:5c:
+                    da:a2:f4:f3:5f:1c:2d:15:7b:5b:d3:07:12:7f:2a:
+                    e5:e1:c5:95:27:38:14:7b:dd:44:44:90:b4:1e:f7:
+                    cb:d3:9f:21:c4:b9:97:bd:18:14:fa:d3:6e:2b:f5:
+                    63:c8:c9:c0:0e:c8:6c:1b:94:fc:20:d3:b6:2a:95:
+                    c7:ba:e8:f1:c2:db:26:e5:78:62:8d:c0:49:61:0e:
+                    6d:71:49:f0:49:f0:56:06:3c:98:63:c2:f9:43:b3:
+                    c3:ea:36:a7:56:f4:d2:aa:fa:d4:9d:8d:7b:b8:b8:
+                    07:ae:b9:dc:f1:47:96:8f:99:13:4b:60:b1:53:d7:
+                    5e:3c:76:1e:b6:39:c9:1a:7f:fc:8c:81:c2:9b:b9:
+                    50:69:f5:7e:4f:32:21:54:18:92:51:ae:b6:89:a3:
+                    53:e0:00:b3:2f:8e:98:97:dc:58:ef:df:25:eb:48:
+                    a5:78:9f:ee:16:4b:cf:50:11:5d:47:93:93:6e:d0:
+                    99:30:9c:de:0e:85:47:31:f8:fd:f9:30:c5:f9:e2:
+                    c9:b1
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                OpenSSL Generated Certificate
+            X509v3 Subject Key Identifier: 
+                5E:FE:16:E7:71:24:D9:6B:81:FF:69:8E:59:2A:23:8A:C7:56:D2:14
+            X509v3 Authority Key Identifier: 
+                keyid:45:38:E1:92:02:B4:3E:C1:67:71:B1:1C:C7:5F:15:CA:57:37:D9:1A
+
+    Signature Algorithm: sha256WithRSAEncryption
+         8b:df:e2:84:29:b9:69:d6:f1:8e:e4:05:6f:73:11:88:fc:c1:
+         f0:63:ae:d2:05:5b:63:82:be:aa:26:c0:6e:cd:22:0a:48:9f:
+         10:7c:9a:4d:33:86:7c:3d:d2:13:2f:1d:b6:c5:15:9e:17:34:
+         af:63:27:85:e8:36:46:d3:ea:a4:da:a0:9c:0f:4e:a6:9d:81:
+         da:ae:85:ff:16:39:c8:a0:5e:b5:53:94:1b:c4:b4:70:99:8c:
+         8a:d3:f9:d1:46:42:f3:95:9b:f4:72:4f:a5:6a:88:f0:96:90:
+         3c:31:2e:dd:5f:72:83:29:37:60:86:c8:0e:10:da:2d:bf:de:
+         27:1c:9a:b9:bb:cb:f5:70:83:9a:cc:64:7f:9a:31:86:86:95:
+         4a:06:f7:6f:f0:13:d9:01:31:be:30:7a:6f:97:2a:35:41:24:
+         f9:39:a8:2d:92:8a:51:15:2d:11:12:de:e3:64:97:02:9d:37:
+         8a:2a:26:a9:3c:fa:0c:01:6e:e6:91:89:2b:30:6b:ed:c5:db:
+         21:53:c4:a4:c5:1a:81:a1:a2:9d:11:13:0e:66:09:de:a3:98:
+         95:64:97:bb:d1:e7:7e:e9:cb:27:0e:0f:a1:35:a4:63:b5:f3:
+         26:2f:c2:90:ec:32:5f:f6:cc:7a:2c:f2:d7:b1:ba:7e:77:15:
+         9f:b8:61:d8
+-----BEGIN CERTIFICATE-----
+MIID0zCCArugAwIBAgIBAjANBgkqhkiG9w0BAQsFADB4MQswCQYDVQQGEwJDTjER
+MA8GA1UECAwIWmhlamlhbmcxETAPBgNVBAcMCEhhbmdaaG91MRUwEwYDVQQKDAxo
+YXJtb255Y2xvdWQxEDAOBgNVBAsMB3NreXZpZXcxGjAYBgNVBAMMESouY2Fhcy1z
+eXN0ZW0uc3ZjMB4XDTIwMDYwNTE1MTUxOFoXDTMwMDYwMzE1MTUxOFowZTELMAkG
+A1UEBhMCQ04xETAPBgNVBAgMCFpoZWppYW5nMRUwEwYDVQQKDAxoYXJtb255Y2xv
+dWQxEDAOBgNVBAsMB3NreXZpZXcxGjAYBgNVBAMMESouY2Fhcy1zeXN0ZW0uc3Zj
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtIIGgbgEu++YMHL/unVQ
+M3SoXyQYeyysDLxHO4SRAexuZi1xv2IkWVnb6YU7gp2CgPNu4/PLyVQzLFzaovTz
+XxwtFXtb0wcSfyrl4cWVJzgUe91ERJC0HvfL058hxLmXvRgU+tNuK/VjyMnADshs
+G5T8INO2KpXHuujxwtsm5XhijcBJYQ5tcUnwSfBWBjyYY8L5Q7PD6janVvTSqvrU
+nY17uLgHrrnc8UeWj5kTS2CxU9dePHYetjnJGn/8jIHCm7lQafV+TzIhVBiSUa62
+iaNT4ACzL46Yl9xY798l60ileJ/uFkvPUBFdR5OTbtCZMJzeDoVHMfj9+TDF+eLJ
+sQIDAQABo3sweTAJBgNVHRMEAjAAMCwGCWCGSAGG+EIBDQQfFh1PcGVuU1NMIEdl
+bmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQUXv4W53Ek2WuB/2mOWSojisdW
+0hQwHwYDVR0jBBgwFoAURTjhkgK0PsFncbEcx18Vylc32RowDQYJKoZIhvcNAQEL
+BQADggEBAIvf4oQpuWnW8Y7kBW9zEYj8wfBjrtIFW2OCvqomwG7NIgpInxB8mk0z
+hnw90hMvHbbFFZ4XNK9jJ4XoNkbT6qTaoJwPTqadgdquhf8WOcigXrVTlBvEtHCZ
+jIrT+dFGQvOVm/RyT6VqiPCWkDwxLt1fcoMpN2CGyA4Q2i2/3iccmrm7y/Vwg5rM
+ZH+aMYaGlUoG92/wE9kBMb4wem+XKjVBJPk5qC2SilEVLRES3uNklwKdN4oqJqk8
++gwBbuaRiSswa+3F2yFTxKTFGoGhop0REw5mCd6jmJVkl7vR537pyycOD6E1pGO1
+8yYvwpDsMl/2zHos8texun53FZ+4Ydg=
+-----END CERTIFICATE-----
