@@ -50,9 +50,14 @@ metadata:
   name: demo-webhook
 webhooks:
   - name: webhook-server-change-request.default.svc
-    objectSelector:
-      matchLabels:
-        foo: bar
+#    namespaceSelector:
+#      matchExpressions:
+#        - key: environment
+#          operator: In
+#          values: [ "prod","staging" ]
+#    objectSelector:
+#      matchLabels:
+#        foo: bar
     clientConfig:
       service:
         name: webhook-server-change-request
